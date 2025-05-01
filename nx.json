@@ -1,0 +1,11 @@
+{
+  "defaultBase": "main",
+  "namedInputs": {
+    "default": ["{projectRoot}/**/*"],
+    "production": [
+      "default",
+      "!{workspaceRoot}/libs/generated-types/src/index.ts"
+    ]
+  },
+  "$schema": "./node_modules/nx/schemas/nx-schema.json"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "my-lib",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "libs/my-lib/src",
+  "targets": {
+    "test": {
+      "executor": "nx:run-commands",
+      "inputs": ["default", "^production"],
+      "options": {
+        "command": "echo \"Simulating test run at: $(date)\""
+      },
+      "cache": true
+    }
+  }
+}

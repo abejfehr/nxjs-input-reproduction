@@ -1,0 +1,10 @@
+{
+  "name": "weird-cache-issue",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@nx/js": "20.8.1",
+    "nx": "20.8.1",
+    "typescript": "^5.2.2"
+  }
+}
